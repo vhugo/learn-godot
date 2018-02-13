@@ -10,7 +10,7 @@ config_version=3
 
 [application]
 
-config/name="03 - Scripting"
+config/name="02 - Scripting"
 run/main_scene="res://sayhello.tscn"
 config/icon="res://icon.png"
 

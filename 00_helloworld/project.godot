@@ -10,7 +10,7 @@ config_version=3
 
 [application]
 
-config/name="01 - Hello World"
+config/name="00 - Hello World"
 config/icon="res://icon.png"
 
 [rendering]
