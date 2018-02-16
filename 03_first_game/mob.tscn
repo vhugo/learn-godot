@@ -33,7 +33,7 @@ custom_solver_bias = 0.0
 radius = 10.0
 height = 20.0
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" index="0"]
 
 input_pickable = false
 collision_layer = 1
@@ -55,8 +55,8 @@ angular_velocity = 0.0
 angular_damp = -1.0
 script = ExtResource( 1 )
 _sections_unfolded = [ "Collision" ]
-MIN_SPEED = null
-MAX_SPEED = null
+MIN_SPEED = 150
+MAX_SPEED = 250
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
